@@ -1,0 +1,1035 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+        "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" data-placeholder-focus="false">
+<!-- Mirrored from www.elpatas.co/contact by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Sep 2021 15:36:53 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KW9GVXN');</script>
+    <!-- End Google Tag Manager -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8">
+    <script type="text/javascript">(window.NREUM || (NREUM = {})).loader_config = {licenseKey: "69ae49ece8", applicationID: "247385045"};
+    window.NREUM || (NREUM = {}), __nr_require = function (t, e, n) {
+        function r(n) {
+            if (!e[n]) {
+                var i = e[n] = {exports: {}};
+                t[n][0].call(i.exports, function (e) {
+                    var i = t[n][1][e];
+                    return r(i || e)
+                }, i, i.exports)
+            }
+            return e[n].exports
+        }
+
+        if ("function" == typeof __nr_require) return __nr_require;
+        for (var i = 0; i
+
+        < n.length; i++) r(n[i]);
+        return r
+    }({
+        1: [function (t, e, n) {
+            function r() {
+            }
+
+            function i(t, e, n) {
+                return function () {
+                    return o(t, [u.now()].concat(f(arguments)), e ? null : this, n), e ? void 0 : this
+                }
+            }
+
+            var o = t("handle"), a = t(8), f = t(9), c = t("ee").get("tracer"), u = t("loader"), s = NREUM;
+            "undefined" == typeof window.newrelic && (newrelic = s);
+            var d = ["setPageViewName", "setCustomAttribute", "setErrorHandler", "finished", "addToTrace", "inlineHit", "addRelease"], p = "api-", l = p + "ixn-";
+            a(d, function (t, e) {
+                s[e] = i(p + e, !0, "api")
+            }), s.addPageAction = i(p + "addPageAction", !0), s.setCurrentRouteName = i(p + "routeName", !0), e.exports = newrelic, s.interaction = function () {
+                return (new r).get()
+            };
+            var m = r.prototype = {
+                createTracer: function (t, e) {
+                    var n = {}, r = this, i = "function" == typeof e;
+                    return o(l + "tracer", [u.now(), t, n], r), function () {
+                        if (c.emit((i ? "" : "no-") + "fn-start", [u.now(), r, i], n), i) try {
+                            return e.apply(this, arguments)
+                        } catch (t) {
+                            throw c.emit("fn-err", [arguments, this, t], n), t
+                        } finally {
+                            c.emit("fn-end", [u.now()], n)
+                        }
+                    }
+                }
+            };
+            a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","), function (t, e) {
+                m[e] = i(l + e)
+            }), newrelic.noticeError = function (t, e) {
+                "string" == typeof t && (t = new Error(t)), o("err", [t, u.now(), !1, e])
+            }
+        }, {}], 2: [function (t, e, n) {
+            function r(t) {
+                if (NREUM.init) {
+                    for (var e = NREUM.init, n = t.split("."), r = 0; r
+
+                    < n.length - 1; r++) if (e = e[n[r]], "object" != typeof e) return;
+                    return e = e[n[n.length - 1]]
+                }
+            }
+
+            e.exports = {getConfiguration: r}
+        }, {}], 3: [function (t, e, n) {
+            function r() {
+                return f.exists && performance.now ? Math.round(performance.now()) : (o = Math.max((new Date).getTime(), o)) - a
+            }
+
+            function i() {
+                return o
+            }
+
+            var o = (new Date).getTime(), a = o, f = t(10);
+            e.exports = r, e.exports.offset = a, e.exports.getLastTimestamp = i
+        }, {}], 4: [function (t, e, n) {
+            function r(t) {
+                return !(!t || !t.protocol || "file:" === t.protocol)
+            }
+
+            e.exports = r
+        }, {}], 5: [function (t, e, n) {
+            function r(t, e) {
+                var n = t.getEntries();
+                n.forEach(function (t) {
+                    "first-paint" === t.name ? d("timing", ["fp", Math.floor(t.startTime)]) : "first-contentful-paint" === t.name && d("timing", ["fcp", Math.floor(t.startTime)])
+                })
+            }
+
+            function i(t, e) {
+                var n = t.getEntries();
+                n.length > 0 && d("lcp", [n[n.length - 1]])
+            }
+
+            function o(t) {
+                t.getEntries().forEach(function (t) {
+                    t.hadRecentInput || d("cls", [t])
+                })
+            }
+
+            function a(t) {
+                if (t instanceof m && !g) {
+                    var e = Math.round(t.timeStamp), n = {type: t.type};
+                    e <= p.now() ? n.fid = p.now() - e : e > p.offset && e <= Date.now() ? (e -= p.offset, n.fid = p.now() - e) : e = p.now(), g = !0, d("timing", ["fi", e, n])
+                }
+            }
+
+            function f(t) {
+                "hidden" === t && d("pageHide", [p.now()])
+            }
+
+            if (!("init" in NREUM && "page_view_timing" in NREUM.init && "enabled" in NREUM.init.page_view_timing && NREUM.init.page_view_timing.enabled === !1)) {
+                var c, u, s, d = t("handle"), p = t("loader"), l = t(7), m = NREUM.o.EV;
+                if ("PerformanceObserver" in window && "function" == typeof window.PerformanceObserver) {
+                    c = new PerformanceObserver(r);
+                    try {
+                        c.observe({entryTypes: ["paint"]})
+                    } catch (v) {
+                    }
+                    u = new PerformanceObserver(i);
+                    try {
+                        u.observe({entryTypes: ["largest-contentful-paint"]})
+                    } catch (v) {
+                    }
+                    s = new PerformanceObserver(o);
+                    try {
+                        s.observe({type: "layout-shift", buffered: !0})
+                    } catch (v) {
+                    }
+                }
+                if ("addEventListener" in document) {
+                    var g = !1, h = ["click", "keydown", "mousedown", "pointerdown", "touchstart"];
+                    h.forEach(function (t) {
+                        document.addEventListener(t, a, !1)
+                    })
+                }
+                l(f)
+            }
+        }, {}], 6: [function (t, e, n) {
+            function r(t, e) {
+                if (!i) return !1;
+                if (t !== i) return !1;
+                if (!e) return !0;
+                if (!o) return !1;
+                for (var n = o.split("."), r = e.split("."), a = 0; a
+
+                < r.length; a++) if (r[a] !== n[a]) return !1;
+                return !0
+            }
+
+            var i = null, o = null, a = /Version\/(\S+)\s+Safari/;
+            if (navigator.userAgent) {
+                var f = navigator.userAgent, c = f.match(a);
+                c && f.indexOf("Chrome") === -1 && f.indexOf("Chromium") === -1 && (i = "Safari", o = c[1])
+            }
+            e.exports = {agent: i, version: o, match: r}
+        }, {}], 7: [function (t, e, n) {
+            function r(t) {
+                function e() {
+                    t(a && document[a] ? document[a] : document[i] ? "hidden" : "visible")
+                }
+
+                "addEventListener" in document && o && document.addEventListener(o, e, !1)
+            }
+
+            e.exports = r;
+            var i, o, a;
+            "undefined" != typeof document.hidden ? (i = "hidden", o = "visibilitychange", a = "visibilityState") : "undefined" != typeof document.msHidden ? (i = "msHidden", o = "msvisibilitychange") : "undefined" != typeof document.webkitHidden && (i = "webkitHidden", o = "webkitvisibilitychange", a = "webkitVisibilityState")
+        }, {}], 8: [function (t, e, n) {
+            function r(t, e) {
+                var n = [], r = "", o = 0;
+                for (r in t) i.call(t, r) && (n[o] = e(r, t[r]), o += 1);
+                return n
+            }
+
+            var i = Object.prototype.hasOwnProperty;
+            e.exports = r
+        }, {}], 9: [function (t, e, n) {
+            function r(t, e, n) {
+                e || (e = 0), "undefined" == typeof n && (n = t ? t.length : 0);
+                for (var r = -1, i = n - e || 0, o = Array(i
+
+                < 0 ? 0 : i); ++r
+
+                     < i;) o[r] = t[e + r];
+                return o
+            }
+
+            e.exports = r
+        }, {}], 10: [function (t, e, n) {
+            e.exports = {exists: "undefined" != typeof window.performance && window.performance.timing && "undefined" != typeof window.performance.timing.navigationStart}
+        }, {}], ee: [function (t, e, n) {
+            function r() {
+            }
+
+            function i(t) {
+                function e(t) {
+                    return t && t instanceof r ? t : t ? u(t, c, a) : a()
+                }
+
+                function n(n, r, i, o, a) {
+                    if (a !== !1 && (a = !0), !l.aborted || o) {
+                        t && a && t(n, r, i);
+                        for (var f = e(i), c = v(n), u = c.length, s = 0; s
+
+                        < u; s++) c[s].apply(f, r);
+                        var p = d[w[n]];
+                        return p && p.push([b, n, r, f]), f
+                    }
+                }
+
+                function o(t, e) {
+                    y[t] = v(t).concat(e)
+                }
+
+                function m(t, e) {
+                    var n = y[t];
+                    if (n) for (var r = 0; r
+
+                    < n.length; r++) n[r] === e && n.splice(r, 1)
+                }
+
+                function v(t) {
+                    return y[t] || []
+                }
+
+                function g(t) {
+                    return p[t] = p[t] || i(n)
+                }
+
+                function h(t, e) {
+                    l.aborted || s(t, function (t, n) {
+                        e = e || "feature", w[n] = e, e in d || (d[e] = [])
+                    })
+                }
+
+                var y = {}, w = {}, b = {on: o, addEventListener: o, removeEventListener: m, emit: n, get: g, listeners: v, context: e, buffer: h, abort: f, aborted: !1};
+                return b
+            }
+
+            function o(t) {
+                return u(t, c, a)
+            }
+
+            function a() {
+                return new r
+            }
+
+            function f() {
+                (d.api || d.feature) && (l.aborted = !0, d = l.backlog = {})
+            }
+
+            var c = "nr@context", u = t("gos"), s = t(8), d = {}, p = {}, l = e.exports = i();
+            e.exports.getOrSetContext = o, l.backlog = d
+        }, {}], gos: [function (t, e, n) {
+            function r(t, e, n) {
+                if (i.call(t, e)) return t[e];
+                var r = n();
+                if (Object.defineProperty && Object.keys) try {
+                    return Object.defineProperty(t, e, {value: r, writable: !0, enumerable: !1}), r
+                } catch (o) {
+                }
+                return t[e] = r, r
+            }
+
+            var i = Object.prototype.hasOwnProperty;
+            e.exports = r
+        }, {}], handle: [function (t, e, n) {
+            function r(t, e, n, r) {
+                i.buffer([t], r), i.emit(t, e, n)
+            }
+
+            var i = t("ee").get("handle");
+            e.exports = r, r.ee = i
+        }, {}], id: [function (t, e, n) {
+            function r(t) {
+                var e = typeof t;
+                return !t || "object" !== e && "function" !== e ? -1 : t === window ? 0 : a(t, o, function () {
+                    return i++
+                })
+            }
+
+            var i = 1, o = "nr@id", a = t("gos");
+            e.exports = r
+        }, {}], loader: [function (t, e, n) {
+            function r() {
+                if (!R++) {
+                    var t = M.info = NREUM.info, e = v.getElementsByTagName("script")[0];
+                    if (setTimeout(u.abort, 3e4), !(t && t.licenseKey && t.applicationID && e)) return u.abort();
+                    c(E, function (e, n) {
+                        t[e] || (t[e] = n)
+                    });
+                    var n = a();
+                    f("mark", ["onload", n + M.offset], null, "api"), f("timing", ["load", n]);
+                    var r = v.createElement("script");
+                    0 === t.agent.indexOf("http://") || 0 === t.agent.indexOf("https:///") ? r.src = t.agent : r.src = l + "://" + t.agent, e.parentNode.insertBefore(r, e)
+                }
+            }
+
+            function i() {
+                "complete" === v.readyState && o()
+            }
+
+            function o() {
+                f("mark", ["domContent", a() + M.offset], null, "api")
+            }
+
+            var a = t(3), f = t("handle"), c = t(8), u = t("ee"), s = t(6), d = t(4), p = t(2), l = p.getConfiguration("ssl") === !1 ? "http" : "https", m = window, v = m.document, g = "addEventListener", h = "attachEvent", y = m.XMLHttpRequest, w = y && y.prototype, b = !d(m.location);
+            NREUM.o = {ST: setTimeout, SI: m.setImmediate, CT: clearTimeout, XHR: y, REQ: m.Request, EV: m.Event, PR: m.Promise, MO: m.MutationObserver};
+            var x = "" + location, E = {beacon: "bam.nr-data.net", errorBeacon: "bam.nr-data.net", agent: "js-agent.newrelic.com/nr-1210.min.js"}, O = y && w && w[g] && !/CriOS/.test(navigator.userAgent), M = e.exports = {offset: a.getLastTimestamp(), now: a, origin: x, features: {}, xhrWrappable: O, userAgent: s, disabled: b};
+            if (!b) {
+                t(1), t(5), v[g] ? (v[g]("DOMContentLoaded", o, !1), m[g]("load", r, !1)) : (v[h]("onreadystatechange", i), m[h]("onload", r)), f("mark", ["firstbyte", a.getLastTimestamp()], null, "api");
+                var R = 0
+            }
+        }, {}], "wrap-function": [function (t, e, n) {
+            function r(t, e) {
+                function n(e, n, r, c, u) {
+                    function nrWrapper() {
+                        var o, a, s, p;
+                        try {
+                            a = this, o = d(arguments), s = "function" == typeof r ? r(o, a) : r || {}
+                        } catch (l) {
+                            i([l, "", [o, a, c], s], t)
+                        }
+                        f(n + "start", [o, a, c], s, u);
+                        try {
+                            return p = e.apply(a, o)
+                        } catch (m) {
+                            throw f(n + "err", [o, a, m], s, u), m
+                        } finally {
+                            f(n + "end", [o, a, p], s, u)
+                        }
+                    }
+
+                    return a(e) ? e : (n || (n = ""), nrWrapper[p] = e, o(e, nrWrapper, t), nrWrapper)
+                }
+
+                function r(t, e, r, i, o) {
+                    r || (r = "");
+                    var f, c, u, s = "-" === r.charAt(0);
+                    for (u = 0; u
+
+                    < e.length; u++) c = e[u], f = t[c], a(f) || (t[c] = n(f, s ? c + r : r, i, c, o))
+                }
+
+                function f(n, r, o, a) {
+                    if (!m || e) {
+                        var f = m;
+                        m = !0;
+                        try {
+                            t.emit(n, r, o, e, a)
+                        } catch (c) {
+                            i([c, n, r, o], t)
+                        }
+                        m = f
+                    }
+                }
+
+                return t || (t = s), n.inPlace = r, n.flag = p, n
+            }
+
+            function i(t, e) {
+                e || (e = s);
+                try {
+                    e.emit("internal-error", t)
+                } catch (n) {
+                }
+            }
+
+            function o(t, e, n) {
+                if (Object.defineProperty && Object.keys) try {
+                    var r = Object.keys(t);
+                    return r.forEach(function (n) {
+                        Object.defineProperty(e, n, {
+                            get: function () {
+                                return t[n]
+                            }, set: function (e) {
+                                return t[n] = e, e
+                            }
+                        })
+                    }), e
+                } catch (o) {
+                    i([o], n)
+                }
+                for (var a in t) l.call(t, a) && (e[a] = t[a]);
+                return e
+            }
+
+            function a(t) {
+                return !(t && t instanceof Function && t.apply && !t[p])
+            }
+
+            function f(t, e) {
+                var n = e(t);
+                return n[p] = t, o(t, n, s), n
+            }
+
+            function c(t, e, n) {
+                var r = t[e];
+                t[e] = f(r, n)
+            }
+
+            function u() {
+                for (var t = arguments.length, e = new Array(t), n = 0; n
+
+                < t; ++n) e[n] = arguments[n];
+                return e
+            }
+
+            var s = t("ee"), d = t(9), p = "nr@original", l = Object.prototype.hasOwnProperty, m = !1;
+            e.exports = r, e.exports.wrapFunction = f, e.exports.wrapInPlace = c, e.exports.argsToArray = u
+        }, {}]
+    }, {}, ["loader"]);
+
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="https://www.google.com/recaptcha/api.js?hl=en" async="async" defer="defer"></script>
+    <link rel="shortcut icon" href="sites/default/files/favicon.PNG" type="image/png"/>
+    <meta name="description" content="We’re always excited to hear from our fans, even if it’s just to say “Thanks for making great beer!” If you have a question for us, we’d love to answer it."/>
+    <meta name="generator" content="Drupal 7 (http://drupal.org)"/>
+    <link rel="canonical" href="contact.html"/>
+    <link rel="shortlink" href="contact.html"/>
+    <meta property="og:site_name" content="El Patas"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://www.elpatas.co/contact"/>
+    <meta property="og:title" content="Contactanos"/>
+    <meta property="og:updated_time" content="2021-09-07T12:05:20-07:00"/>
+    <meta property="og:image" content="https://www.elpatas.co//sites/default/files/defaults/elpatas-social-brandmark.jpg"/>
+    <meta property="og:image:url" content="https://www.elpatas.co//sites/default/files/defaults/elpatas-social-brandmark.jpg"/>
+    <meta property="article:published_time" content="2016-03-08T09:44:25-08:00"/>
+    <meta property="article:modified_time" content="2021-09-07T12:05:20-07:00"/>
+    <title>Contactanos| El Patas</title>
+    <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_nIukSLTEHkAZfDJ9bLqinq1vqa0_tH78MS6QgR9rD3o.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_uuBgTl-aNgBTCmYOaYn7nRzkICwOooI_cQ9NT5xVqo0.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_R9lF8sbJ3KyZ456iuTu4L2Jpfmb0DztFwMr9KE21s1E.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_vT_l_QHiU_iw4gdBIQXEwO-vMFRvaLtlk3a0suLjXtQ.css" media="all"/>
+    <style>.tb-megamenu.animate .mega > .mega-dropdown-menu, .tb-megamenu.animate.slide .mega > .mega-dropdown-menu > div {
+        transition-delay: 500ms;
+        -webkit-transition-delay: 500ms;
+        -ms-transition-delay: 500ms;
+        -o-transition-delay: 500ms;
+        transition-duration: 750ms;
+        -webkit-transition-duration: 750ms;
+        -ms-transition-duration: 750ms;
+        -o-transition-duration: 750ms;
+    }
+    </style>
+    <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_wR3F4c0T2ZE5AM170tSud-yNOdqiZPAG7PFprtmhIfI.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_Jdvbfhk_AZATvp02rZN6q8BKjKa_1yTTNxOErLwYFP0.css" media="all"/>
+    <!--[if lte IE 9]>
+    <link type="text/css" rel="stylesheet" href="https://www.elpatas.co/sites/all/themes/patas_theme/css/ie9.css?qz50mc" media="all"/>
+    <![endif]-->
+    <!-- HTML5 element support for IE6-8 -->
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="http://use.typekit.net/bsp0bmc.js"></script>
+    <script>try {
+        Typekit.load();
+    } catch (e) {
+    }</script>
+    <!--
+Start of global snippet: Please do not remove
+Place this snippet between the <head> and </head> tags on every page of your site.
+-->
+    <!-- Global site tag (gtag.js) - Google Marketing Platform -->
+    <script async src="#" https:
+    //www.googletagmanager.com/gtag/js?id=DC-10108663""></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'DC-10108663');
+    </script>
+    <!-- End of global snippet: Please do not remove -->
+    <!-- Twitter universal website tag code -->
+    <script>
+        !function (e, t, n, s, u, a) {
+            e.twq || (s = e.twq = function () {
+                s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+            }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = 'http://static.ads-twitter.com/uwt.js',
+                a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+        }(window, document, 'script');
+        // Insert Twitter Pixel ID and Standard Event data below
+        twq('init', 'o43za');
+        twq('track', 'PageView');
+    </script>
+    <!-- End Twitter universal website tag code -->
+    <!-- Snap Pixel Code -->
+    <script type='text/javascript'>
+        (function (e, t, n) {
+            if (e.snaptr) return;
+            var a = e.snaptr = function () {
+                a.handleRequest ? a.handleRequest.apply(a, arguments) : a.queue.push(arguments)
+            };
+            a.queue = [];
+            var s = 'script';
+            r = t.createElement(s);
+            r.async = !0;
+            r.src = n;
+            var u = t.getElementsByTagName(s)[0];
+            u.parentNode.insertBefore(r, u);
+        })(window, document,
+            'https://sc-static.net/scevent.min.js');
+
+        snaptr('init', '83632932-43ed-4631-bfa4-a9318f0212e3', {
+            'user_email': '__INSERT_USER_EMAIL__'
+        });
+
+        snaptr('track', 'PAGE_VIEW');
+
+    </script>
+    <!-- End Snap Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 621141239 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-621141239"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'AW-621141239');
+    </script>
+    <meta name="facebook-domain-verification" content="cga2mi22grfxowjt5foxaw79scknab"/>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '682637582516447');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=682637582516447&amp;ev=PageView&amp;noscript=1"
+        />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <script src="sites/default/files/js/js_2hoh0v0y6B2TInaEIHI3XwA7E31uiNqpq69BJ97pODY.js"></script>
+    <script>jQuery.migrateMute = true;
+    jQuery.migrateTrace = false;</script>
+    <script src="sites/default/files/js/js_ifo8DDAGMfzwicLVntJGSxbwDX0G44CQ_SMnDEsrEoE.js"></script>
+    <script src="sites/default/files/js/js_sQrK124ognIRDlVv-cnmw5b9PDlk-NEVuesBO5So1V4.js"></script>
+    <script src="sites/default/files/js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+    <script src="sites/default/files/js/js_vX-vIVrijEr8ang1AXb2MvlbZ2fRR72RujsfXGtA8Gw.js"></script>
+    <script src="sites/default/files/js/js_n_T0lTbIPkMifL5GKyQc1WwylV4Z6awST-phfcrFMFs.js"></script>
+    <script>jQuery.extend(Drupal.settings, {
+        "basePath": "\/",
+        "pathPrefix": "",
+        "ajaxPageState": {
+            "theme": "patas_theme", "theme_token": "l2JKfsPFu17bVYc-JfHP6gTvoHWJllYjDl6joGP6FGE", "js": {
+                "sites\/all\/themes\/bootstrap\/js\/bootstrap.js": 1,
+                "sites\/all\/modules\/jquery_update\/replace\/jquery\/1.11\/jquery.min.js": 1,
+                "0": 1,
+                "sites\/all\/modules\/jquery_update\/replace\/jquery-migrate\/1\/jquery-migrate.min.js": 1,
+                "misc\/jquery-extend-3.4.0.js": 1,
+                "misc\/jquery-html-prefilter-3.5.0-backport.js": 1,
+                "misc\/jquery.once.js": 1,
+                "misc\/drupal.js": 1,
+                "sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js": 1,
+                "sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js": 1,
+                "sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js": 1,
+                "modules\/locale\/locale.datepicker.js": 1,
+                "misc\/form.js": 1,
+                "sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js": 1,
+                "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1,
+                "sites\/all\/modules\/colorbox\/js\/colorbox.js": 1,
+                "sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js": 1,
+                "sites\/all\/modules\/colorbox\/js\/colorbox_load.js": 1,
+                "sites\/all\/modules\/colorbox\/js\/colorbox_inline.js": 1,
+                "sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js": 1,
+                "sites\/all\/modules\/captcha\/captcha.js": 1,
+                "sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js": 1,
+                "sites\/all\/modules\/select_or_other\/select_or_other.js": 1,
+                "misc\/textarea.js": 1,
+                "sites\/all\/modules\/antibot\/js\/antibot.js": 1,
+                "sites\/all\/modules\/webform\/js\/webform.js": 1,
+                "sites\/all\/modules\/custom\/el_patas_age_gate\/js\/el_patas_age_gate.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/affix.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/alert.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/button.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/carousel.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/collapse.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/dropdown.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/modal.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/tooltip.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/popover.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/scrollspy.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/tab.js": 1,
+                "sites\/all\/themes\/patas_theme\/bootstrap\/js\/transition.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/morphsearch.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/iframeResizer.min.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/modernizr.custom.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/moment.min.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/jquery.ytplayer.min.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/dotdotdot.min.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/skrollr.min.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/fitvids.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/jquery.scrollLock.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/jquery.panelarrow.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/elpatas_menu.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/owl.carousel.min.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/placeholders.min.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/flipclock.min.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/el_patas_init.js": 1,
+                "sites\/all\/themes\/patas_theme\/js\/tags.js": 1
+            }, "css": {
+                "modules\/system\/system.base.css": 1,
+                "misc\/ui\/jquery.ui.core.css": 1,
+                "misc\/ui\/jquery.ui.theme.css": 1,
+                "misc\/ui\/jquery.ui.datepicker.css": 1,
+                "sites\/all\/modules\/comment_notify\/comment_notify.css": 1,
+                "sites\/all\/modules\/date\/date_api\/date.css": 1,
+                "sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css": 1,
+                "modules\/field\/theme\/field.css": 1,
+                "modules\/node\/node.css": 1,
+                "sites\/all\/modules\/office_hours\/office_hours.css": 1,
+                "sites\/all\/modules\/views\/css\/views.css": 1,
+                "sites\/all\/modules\/ckeditor\/css\/ckeditor.css": 1,
+                "sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css": 1,
+                "sites\/all\/modules\/ctools\/css\/ctools.css": 1,
+                "sites\/all\/modules\/oembed\/oembed.base.css": 1,
+                "sites\/all\/modules\/oembed\/oembed.theme.css": 1,
+                "https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.4.0\/css\/font-awesome.min.css": 1,
+                "sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css": 1,
+                "sites\/all\/modules\/tb_megamenu\/css\/base.css": 1,
+                "sites\/all\/modules\/tb_megamenu\/css\/default.css": 1,
+                "sites\/all\/modules\/tb_megamenu\/css\/compatibility.css": 1,
+                "0": 1,
+                "public:\/\/honeypot\/honeypot.css": 1,
+                "sites\/all\/modules\/webform\/css\/webform.css": 1,
+                "sites\/all\/modules\/custom\/el_patas_age_gate\/css\/el_patas_age_gate.css": 1,
+                "sites\/all\/themes\/patas_theme\/fonts\/elpatas\/css\/elpatas.css": 1,
+                "sites\/all\/themes\/patas_theme\/css\/mb.ytplayer.css": 1,
+                "sites\/all\/themes\/patas_theme\/css\/morphsearch.css": 1,
+                "sites\/all\/themes\/patas_theme\/css\/owl.carousel.css": 1,
+                "sites\/all\/themes\/patas_theme\/css\/owl.transitions.css": 1,
+                "sites\/all\/themes\/patas_theme\/css\/style.css": 1,
+                "sites\/all\/themes\/patas_theme\/css\/custom.css": 1,
+                "sites\/all\/themes\/patas_theme\/css\/responsive.css": 1,
+                "sites\/all\/themes\/patas_theme\/css\/ie9.css": 1
+            }
+        },
+        "colorbox": {"transition": "elastic", "speed": "350", "opacity": "0.85", "slideshow": false, "slideshowAuto": true, "slideshowSpeed": "2500", "slideshowStart": "start slideshow", "slideshowStop": "stop slideshow", "current": "{current} of {total}", "previous": "\u00ab Prev", "next": "Next \u00bb", "close": "Close", "overlayClose": true, "returnFocus": true, "maxWidth": "98%", "maxHeight": "98%", "initialWidth": "400", "initialHeight": "400", "fixed": true, "scrolling": true, "mobiledetect": true, "mobiledevicewidth": "480px"},
+        "antibot": {"actions": {"webform-client-form-835271": "\/contact", "webform-client-form-820331": "\/contact", "webform-client-form-861176": "\/contact"}},
+        "jquery": {"ui": {"datepicker": {"isRTL": false, "firstDay": "0"}}},
+        "urlIsAjaxTrusted": {"\/contact": true},
+        "bootstrap": {"anchorsFix": 1, "anchorsSmoothScrolling": 1, "formHasError": 1, "popoverEnabled": 0, "popoverOptions": {"animation": 1, "html": 0, "placement": "right", "selector": "", "trigger": "click", "triggerAutoclose": 1, "title": "", "content": "", "delay": 0, "container": "body"}, "tooltipEnabled": 1, "tooltipOptions": {"animation": 1, "html": 0, "placement": "auto left", "selector": "", "trigger": "hover focus", "delay": 0, "container": "body"}}
+    });</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-197691 node-type-question-answer i18n-en">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW9GVXN"
+            height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<header id="navbar" role="banner" class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container-fluid fadeout">
+        <div class="navbar-header">
+            <a class="logo navbar-btn pull-left" href="index.html" title="Home">
+                <img src="sites/default/files/gargoyle_0.png" alt="Home"/>
+            </a>
+            <a class="name navbar-brand" href="index.html" title="Home">El Patas</a>
+            <a href="#" class="navigation-toggle">
+                <span class="burger"></span>
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <nav role="navigation" class="row">
+                <div class="region region-navigation">
+                    <section id="block-tb-megamenu-main-menu" class="block block-tb-megamenu clearfix">
+                        <div data-duration="750" data-delay="500" id="tb-megamenu-main-menu" class="tb-megamenu tb-megamenu-main-menu animate slide">
+                            <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button" title="Open Menu">
+                                <i class="fa fa-reorder"></i>
+                                <span class="sr-only">Open Menu</span>
+                            </button>
+                            <div class="nav-collapse  always-show">
+                                <ul class="tb-megamenu-nav nav level-0 items-7">
+                                    <li data-id="2506" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+                                        <a href="beer.html" class="dropdown-toggle" title="Cerveza">
+
+                                            Cerveza </a>
+                                        <div data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+                                            <div class="mega-dropdown-inner">
+                                                <div class="tb-megamenu-row row-fluid">
+                                                    <div data-showblocktitle="1" data-class="" data-width="12" data-hidewcol="" id="tb-megamenu-column-1" class="tb-megamenu-column span12  mega-col-nav">
+                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                            <div data-type="block" data-block="views--menu_beer_carousel-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+                                                                <div class="block-inner">
+                                                                    <section id="block-views-menu-beer-carousel-block" class="block block-views clearfix">
+                                                                        <div class="view view-menu-beer-carousel view-id-menu_beer_carousel view-display-id-block view-dom-id-63e6f8be20bc7dff2175bdcfa577ac82">
+                                                                            <div class="view-content">
+                                                                                <div class="views-group" id="a-href-beer-calderascalderas-a">
+                                                                                    <h3 class="group-title">
+                                                                                        <a href="beer/calderas.html">Calderas de El Patas</a>
+                                                                                    </h3>
+                                                                                    <div class="beer">
+                                                                                        <div class="views-field views-field-field-menu-image-icon">
+                                                                                            <a href="beer/calderas/morningstar-american-ipa.html">
+                                                                                                <img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/beer_menu_icon/public/beer/menu/2018_ipa_can7ab1.png?itok=7fQ_aa57" width="111" height="400" alt="American IPA can"/>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        <a class="details" href="beer/calderas/morningstar-american-ipa.html">
+                                                                                            <span class="title">American IPA</span>
+                                                                                            <br>
+                                                                                            <span class="style">IPA</span>
+                                                                                            <br>
+                                                                                            <span class="abv">6.6%</span>
+                                                                                            <br>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                    <!-- /.block -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tb-megamenu-row row-fluid">
+                                                    <div data-showblocktitle="0" data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-2" class="tb-megamenu-column span4  mega-col-nav">
+                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                            <div data-type="block" data-block="block--101" class="tb-megamenu-block tb-block tb-megamenu-block">
+                                                                <div class="block-inner">
+                                                                    <section id="block-block-101" class="block block-block clearfix">
+                                                                        <p>
+                                                                            <a class="arrow" href="https://wa.me/message/ZCQ2YKP4HEIDJ1" target="_blank">Compra Cerveza Online 
+
+                                                                                <i class="icon-arrow-right"></i>
+                                                                            </a>
+                                                                        </p>
+                                                                    </section>
+                                                                    <!-- /.block -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-showblocktitle="0" data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-3" class="tb-megamenu-column span4  mega-col-nav">
+                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                            <div data-type="block" data-block="block--16" class="tb-megamenu-block tb-block tb-megamenu-block">
+                                                                <div class="block-inner">
+                                                                    <section id="block-block-16" class="block block-block clearfix">
+                                                                        <p>
+                                                                            <a class="arrow" href="beer.html">Nuestras Cervezas
+
+                                                                                <i class="icon-arrow-right"></i>
+                                                                            </a>
+                                                                        </p>
+                                                                    </section>
+                                                                    <!-- /.block -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tb-megamenu-row row-fluid">
+                                                    <div data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-5" class="tb-megamenu-column span12  mega-col-nav">
+                                                        <div class="tb-megamenu-column-inner mega-inner clearfix">
+                                                            <ul class="tb-megamenu-subnav mega-nav level-1 items-6">
+                                                                <li data-id="3181" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+                                                                    <a href="beer.html" title="NUESTRAS CERVEZAS">
+
+                                                                        NUESTRAS CERVEZAS </a>
+                                                                </li>
+                                                                <li data-id="3176" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+                                                                    <a href="beer/calderas.html" title="Calderas de El Patas">
+
+                                                                        Calderas de El Patas </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li data-id="2521" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify">
+                                        <a href="https://facebook.com/elpatasco/" title="Tienda">
+
+                                            Tienda </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /.block -->
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="breadcrumb-wrapper">
+        <ol class="breadcrumb">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li class="active">Contactanos</li>
+        </ol>
+    </div>
+</header>
+<div class="navigation-overlay"></div>
+<div id="skrollr-body">
+    <div class="main-container container-fluid">
+        <header role="banner" id="page-header">
+            <section class="interior-banner">
+                <div class="banner" style="background-image: url(sites/default/files/qa-banner/hops.jpg);" data-0="opacity:1; top: 0px;" data-250="opacity:0; top: -90px;">
+                    <div class="banner-copy">
+                        <h1>Contactanos</h1>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!-- /#page-header -->
+        <div class="row">
+            <section class="col-sm-12">
+                <a id="main-content"></a>
+                <h1 class="page-header">Contactanos</h1>
+                <div class="region region-content">
+                    <section id="block-system-main" class="block block-system clearfix">
+                        <div id="node-197691" class="node node-question-answer clearfix" about="/contact" typeof="sioc:Item foaf:Document">
+                            <div class="content">
+                                <div class="qa-wrapper clearfix row">
+                                    <div class="basic-wrapper row">
+                                        <section class="container">
+                                            <div class="col-md-12">
+                                                <div class="field field-name-field-description field-type-text-long field-label-hidden">
+                                                    <div class="field-items">
+                                                        <div class="field-item even">
+                                                            <p>Siempre nos entusiasma saber de nuestros fans, aunque sólo sea para decirles "¡Gracias por hacer una gran cerveza!". Si tienes una pregunta para nosotros, nos encantaría responderla. Si tienes un problema que comunicar, háznoslo saber para que podamos solucionarlo. Gracias por tomarte el tiempo de compartir tus experiencias con nosotros, ya que nos dará más información para seguir llevando la mejor cerveza artesanal de alta calidad a todos nuestros fans... ¡Salud!</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /.block -->
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<footer class="footer container-fluid">
+    <section id="respect">
+        <div class="tagline"></div>
+    </section>
+    <div class="definition">El Patas Hace parte de la tradición oral Colombiana. Muchas veces es asociado con el diablo. Pero, se trata de un ser que tiene el poder divino de cambiar su apariencia para cambiar su apariencia y librarse de quienes lo acosan pidiéndole predecir los demonios humanos. El Patas es una síntesis de todo: es la suma de la belleza, la sabiduría, la fealdad, la torpeza, la ignorancia, virtud, vicio, grandeza y miseria.
+
+
+        <div class="socials">
+            <a href="https://www.facebook.com/elpatasco" target="_blank">
+                <i class="icon-facebook"></i>
+                <span class="sr-only">Facebook</span>
+            </a>
+            <a href="https://www.twitter.com/elpatasco" target="_blank">
+                <i class="icon-twitter"></i>
+                <span class="sr-only">Twitter</span>
+            </a>
+            <a href="https://www.instagram.com/elpatasco/" target="_blank">
+                <i class="icon-instagram"></i>
+                <span class="sr-only">Instagram</span>
+            </a>
+            <a href="https://www.youtube.com/user/elpatasco" target="_blank">
+                <i class="icon-youtube-play"></i>
+                <span class="sr-only">YouTube</span>
+            </a>
+        </div>
+    </div>
+    <div class="independent"></div>
+    <section class="footer-bg"></section>
+    <section id="footer" class="clearfix row">
+        <div class="copyright">
+            Copyright &copy; 2021 El Patas. Todos los derechos reservados.
+            <i class="icon-pipe"></i> cll 161 • Bogota
+            <br/>El Patas marca registrada.
+            <br>
+            <a href="contact.html">Contactanos</a> &dash;
+            <a href="privacy-policy.html">Politica de Privacidad</a>
+        </div>
+    </section>
+</footer>
+<div id="mobile-menu-overlay"></div>
+<div id="mobile-menu-drawer">
+    <div class="mobile-wrapper">
+        <div class="mobile-menu-inner">
+            <form class="mobile-menu-search-form" action="https://www.elpatas.co/search">
+                <label for="mobile-search" style="visibility: hidden;position: absolute;">Mobile Search</label>
+                <input class="mobile-menu-input" id="mobile-search" type="search" name="query" placeholder="SEARCH" aria-label="Search">
+                <button class="mobile-menu-submit" type="submit" title="Search">
+                    <i class="icon-search"></i>
+                </button>
+            </form>
+            <ul class="menu nav">
+                <li class="first leaf">
+                    <a href="index.html" title="">Home</a>
+                </li>
+                <li class="leaf">
+                    <a href="beer.html" title="">Cervezas</a>
+                </li>
+                <li class="leaf">
+                    <a href="https://facebook.com/elpatasco/" title="">Shop</a>
+                </li>
+                <li class="last expanded">
+                    <a href="index.html" title="">Social Media</a>
+                    <ul class="menu nav">
+                        <li class="first leaf">
+                            <a href="https://www.facebook.com/elpatasco" title="">Facebook</a>
+                        </li>
+                        <li class="leaf">
+                            <a href="https://www.instagram.com/elpatasco/" title="">Instagram</a>
+                        </li>
+                        <li class="leaf">
+                            <a href="https://twitter.com/elpatasco" title="">Twitter</a>
+                        </li>
+                        <li class="last leaf">
+                            <a href="https://www.youtube.com/user/elpatasco" title="">YouTube</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="region region-page-bottom">
+    <section id="el-patas-age-gate" class="clearfix" style="display:none">
+        <aside class="age-gate-left col-sm-12 clearfix">
+            <img src="sites/all/themes/patas_theme/img/age-gate-logo.png" id="age-gate-logo" alt="El Patas logo"/>
+            <form action="#" id="age-gate-form" class="form-inline">
+                <div class="errors-container"></div>
+                <div id="mobile-form" class="clearfix">
+                    <fieldset>
+                        <legend>¿TIENES EDAD LEGAL PARA BEBER?</legend>
+                        <legend class="callout">(SE HONESTO, EL PATAS TE ESTA VIGILANDO)</legend>
+                        <div class="inputs">
+                            <div class="col-xs-6">
+                                <input type="submit" name="yes" class="btn btn-outline form-control mobile" value="yes" aria-label="Yes">
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="submit" name="no" class="btn btn-outline form-control mobile" value="no" aria-label="No">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="remember">
+                    <input type="checkbox" id="remember_me" name="remember_me" checked="checked">
+                    <label class="" for="remember_me">
+                        <i class="icon-circle"></i>
+                        <i class="icon-record"></i>Remember Me
+
+                    </label>
+                </div>
+                <legend class="callout" style="max-width: 400px; font-size: 10px;">ESTE SITIO USA COOKIES. INFORMACION ACERCA DE NUESTRAS COOKIES E INSTRUCCIONS PARA DESACTIVARLAS EN NUESTRA
+
+                    <a href="privacy-policy.html">Politica de Privacidad</a>
+                </legend>
+            </form>
+            <footer>El Patas supports the
+
+                <a href="https://www.brewersassociation.org/attachments/0000/0639/Marketing_and_Advertising_Code.pdf" target="_blank">Brewers Association Marketing Code</a>, which includes age disclosure intending viewers be of legal drinking age.
+
+                <br>
+                <a href="privacy-policy.html">Politica de Privacidad</a>
+            </footer>
+        </aside>
+    </section>
+</div>
+<script src="sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+<script type="text/javascript">window.NREUM || (NREUM = {});
+NREUM.info = {"beacon": "bam.nr-data.net", "licenseKey": "69ae49ece8", "applicationID": "247385045", "transactionName": "Y1MHYEYDDUsCURUMDFoZJFdACwxWTFwOAQZrRgRTUT0VUQZF", "queueTime": 0, "applicationTime": 560, "atts": "TxQEFg4ZHkU=", "errorBeacon": "bam.nr-data.net", "agent": ""}</script>
+</body>
+<!-- Mirrored from www.elpatas.co/contact by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Sep 2021 15:37:07 GMT -->
+</html>
